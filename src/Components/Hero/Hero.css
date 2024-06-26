@@ -1,36 +1,75 @@
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
     background: url('../../assets/hero.png');
-    /* background-repeat: no-repeat; */
-     background-size: cover;
-     background-position: center;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-} 
-
-.hero-text{
-    text-align:center;
+.hero-text {
+    text-align: center;
     margin-left: 30px;
     max-width: 800px;
-    
-    
 }
 
-.hero-text h1{
+.hero-text h1 {
     font-size: 60px;
     font-weight: 600;
+    color: #333;
 }
 
-.hero-text p{
+.hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
 }
 
-.btn i{
+.btn i {
     margin-left: 12px;
     margin-top: 2px;
+}
+
+.services {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1b7dbb; /* Blue background color */
+    border-radius: 50%; /* Circle shape */
+    overflow: hidden; /* Hide overflow to maintain circle shape */
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.service:hover {
+    background-color: #fff; /* White background color on hover */
+}
+
+.service:hover p {
+    color: #1b7dbb; /* Blue text color on hover */
+}
+
+.service img {
+    width: 80%; /* Adjust image size */
+    border-radius: 50%; /* Ensure the image is circular */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for image size */
+}
+
+.service:hover img {
+    transform: scale(1.2); /* Increase image size on hover */
 }
