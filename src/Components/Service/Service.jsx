@@ -6,7 +6,8 @@ import { faMobileAlt, faLaptop, faDesktop } from '@fortawesome/free-solid-svg-ic
 const Service = () => {
   return (
     <div className='service-section'>
-      <h2 className="services-title">Nos Services</h2>
+      <h2>Nos Services</h2>
+      <h3 className="services-subtitle">What We Offer</h3>
       <div className='services'>
         <div className="service">
           <div className="icon-container">
