@@ -1,0 +1,51 @@
+.contact {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact h3, .contact h2 {
+    margin: 10px 0;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start of the container */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .contact-col {
+    max-width: 45%; /* Adjust width as needed */
+    margin: 20px;
+  }
+  
+  .contact-col h3, .contact-col h2, .contact-col p {
+    text-align: justify; /* Justify the text */
+    margin-bottom: 20px;
+  }
+  
+  .contact-col ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .contact-col li {
+    margin-bottom: 15px; /* Space between list items */
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+  }
+  
+  .contact-col li i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #1b7dbb; /* Icon color */
+    font-size: 1.5em;
+  }
+  
+  .contact-col p {
+    font-size: 1em; /* Adjust font size as needed */
+    color: #666; /* Adjust color as needed */
+    line-height: 1.4; /* Adjust line height as needed */
+    margin-bottom: 20px;
+  }
+  

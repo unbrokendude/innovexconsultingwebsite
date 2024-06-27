@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import Service from './Components/Service/Service';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 
 const App = () => {
   return (
@@ -23,6 +24,15 @@ const App = () => {
               <About />
           </>
         } />
+        <Route path ="/contact" element={
+          <>
+          <div className="container">
+
+          <Contact />
+          </div>
+          </>
+        }
+        />
       </Routes>
     </Router>
   );
