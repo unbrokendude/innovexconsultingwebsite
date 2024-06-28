@@ -1,51 +1,116 @@
 .contact {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .contact h3, .contact h2 {
-    margin: 10px 0;
-  }
-  
-  .contact-container {
-    display: flex;
-    justify-content: flex-start; /* Align items to the start of the container */
-    text-align: left; /* Align text to the left */
-  }
-  
-  .contact-col {
-    max-width: 45%; /* Adjust width as needed */
-    margin: 20px;
-  }
-  
-  .contact-col h3, .contact-col h2, .contact-col p {
-    text-align: justify; /* Justify the text */
-    margin-bottom: 20px;
-  }
-  
-  .contact-col ul {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove padding */
-  }
-  
-  .contact-col li {
-    margin-bottom: 15px; /* Space between list items */
-    display: flex;
-    align-items: center; /* Center the icon and text vertically */
-  }
-  
-  .contact-col li i {
-    margin-right: 10px; /* Space between icon and text */
-    color: #1b7dbb; /* Icon color */
-    font-size: 1.5em;
-  }
-  
-  .contact-col p {
-    font-size: 1em; /* Adjust font size as needed */
-    color: #666; /* Adjust color as needed */
-    line-height: 1.4; /* Adjust line height as needed */
-    margin-bottom: 20px;
-  }
-  
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h3 {
+  margin-top: 100px;
+  font-size: 1.5em; /* Adjust font size as needed */
+  text-align: center;
+  color: #1b7dbb;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-top: 5px;
+  color: #2e2960;
+  text-transform: none;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between; /* Ensure equal spacing between columns */
+  text-align: left;
+  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+}
+
+.contact-col, .contact-col2 {
+  max-width: 45%;
+  margin: 20px;
+}
+
+.contact-col h3{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.contact-col h2, .contact-col p,
+.contact-col2 form {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.contact-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-col li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-col li i {
+  margin-right: 10px;
+  color: #1b7dbb;
+  font-size: 1.5em;
+}
+
+.contact-col p, .contact-col2 form label {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.msg-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: auto;
+  margin-left: 10px; /* Space between text and image */
+}
+
+.contact-col2 form input, .contact-col2 form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-col2 form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b7dbb;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+}
+
+.contact-col2 form button i {
+  margin-left: 10px; /* Space between text and icon */
+}
+
+
+.contact-col2 form button:hover {
+  background-color: #155a8a;
+}
+
+.contact-col2 form{
+  margin-top: 30px;
+}
+
+.contact-col2 span{
+  display: block;
+  margin: 20px 0;
+}

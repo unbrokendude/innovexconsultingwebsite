@@ -5,6 +5,8 @@ import Hero from './Components/Hero/Hero';
 import Service from './Components/Service/Service';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import Client from './Components/Client/Client';
+import Chiffre from './Components/Chiffre/Chiffre';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
             <Hero />
             <div className="container">
               <Service />
+              <Client />
+              <Chiffre />
             </div>
           </>
         } />
