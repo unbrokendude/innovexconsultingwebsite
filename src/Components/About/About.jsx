@@ -23,7 +23,7 @@ const About = () => {
           </ul>
           Notre force d’engagement et notre expertise nous permettent d’intervenir sur plusieurs phases de projet, notamment :
           <ul>
-            <li>L’Expertise des projets SAP</li>
+            <b>L’Expertise des projets SAP</b>
             <li>Phase amont d’un projet (cadrage, maîtrise d’ouvrage, conception de l’architecture du système)</li>
             <li>Implication sur toutes les phases clés du projet</li>
             <li>Intervention efficace sur la résolution des points de blocage</li>

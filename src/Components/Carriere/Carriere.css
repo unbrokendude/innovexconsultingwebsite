@@ -1,0 +1,77 @@
+.job-offers {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    color: #2e2960;
+}
+
+.job-offers i {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.search-bar input, .search-bar select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.job-listing {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.job-listing h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.job-listing .job-info {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.job-listing .job-info span {
+    margin-right: 15px;
+}
+
+.job-listing button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.job-listing button:hover {
+    background-color: #0056b3;
+}

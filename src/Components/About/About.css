@@ -5,21 +5,20 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
-    max-width: 95%; /* Adjust maximum width */
     margin: 0 auto; /* Center the element and add margins */
     text-align: justify; /* Align text justified */
   }
+
+
   
-  .about-image, .about-content {
-    width: 100%;
-    max-width: 800px; /* Adjust max-width as needed */
+  .about-content { 
+    width: 80%;
   }
   
   .about-img {
-    width: 100%;
-    max-width: 800px; /* Adjust size as needed */
-    border-radius: 10px; /* Optional: Add some border radius */
-    margin: 20px 0; /* Space between image and text */
+    border-radius: 10px;
+    margin: 20px 0; /*Space between image and text */
+    width : 700px
   }
   
   .about-content h3, .about-content h2, .about-content p {
@@ -47,6 +46,17 @@
   .about-content p {
     font-size: 1em; /* Adjust font size as needed */
     color: #666; /* Adjust color as needed */
-    line-height: 1.4; /* Adjust line height as needed */
+    line-height: 1.8; /* Adjust line height as needed */
+    /* max-width: 800px; */
+  }
+
+  .about-content li{
+    margin-left: 50px;
+  }
+
+  .about-content b {
+    font-weight: 600; /* Adjust font weight as needed */
+    font-size: 1.1em; /* Adjust font size as needed */
+    color: #333; /* Adjust color as needed */
   }
   
