@@ -1,0 +1,47 @@
+.search-results-container {
+    padding: 20px;
+    margin-top: 120px; /* To avoid overlap with the fixed navbar */
+
+
+  }
+  
+  .search-results-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-results-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  
+  .search-results-item {
+    border: 2px solid #1b7dbb;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-results-item:hover {
+    background-color: #1b7ebb1f;
+  }
+  
+  .search-results-item h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  
+  .search-results-item p {
+    margin: 0;
+  }
+  
+  .search-results-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

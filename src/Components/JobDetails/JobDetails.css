@@ -12,7 +12,6 @@
 }
 
 .job-detail p {
-    font-weight: bold;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -25,6 +24,11 @@
 
 .job-detail ul li {
     margin-bottom: 5px;
+}
+
+.job-detail h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .job-detail table {
     width: 100%;
@@ -61,7 +65,7 @@
     margin-bottom: 20px;
 }
 
-.job-detail input[type="text"], .job-detail input[type="email"], .job-detail input[type="file"] {
+.job-detail input[type="text"], .job-detail input[type="email"], .job-detail input[type="file"], .job-detail input[type = "tel"] {
     width: 100%;
     padding: 10px;
     font-size: 16px;

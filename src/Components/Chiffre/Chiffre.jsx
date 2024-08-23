@@ -14,20 +14,29 @@ const Chiffre = () => {
 
     const startIncrementation = () => {
       clientsInterval = setInterval(() => {
-        setClients(prev => (prev < 5 ? prev + 1 : prev));
+        setClients(prev => (prev < 4 ? prev + 1 : prev));
       }, 100);
 
       chiffreAffaireInterval = setInterval(() => {
-        setChiffreAffaire(prev => (prev < 2750000 ? prev + 10000 : prev));
+        setChiffreAffaire(prev => {
+          if (prev + 680 < 191040) {
+            return prev + 680;
+          } else {
+            clearInterval(chiffreAffaireInterval);
+            return 191040;
+          }
+        });
       }, 1);
+      
+      
 
       experienceInterval = setInterval(() => {
-        setExperience(prev => (prev < 15 ? prev + 1 : prev));
+        setExperience(prev => (prev < 10 ? prev + 1 : prev));
       }, 100);
 
       consultantsInterval = setInterval(() => {
-        setConsultants(prev => (prev < 3 ? prev + 1 : prev));
-      }, 100);
+        setConsultants(prev => (prev < 98 ? prev + 1 : prev));
+      }, 10);
     };
 
     const observer = new IntersectionObserver(
@@ -69,15 +78,15 @@ const Chiffre = () => {
         <div className="chiffre-other-items">
           <div className="chiffre-item chiffre-item-right">
             <span className="chiffre-large-number">{chiffreAffaire.toLocaleString()}</span>
-            <span className="chiffre-text">Chiffre d'affaire</span>
+            <span className="chiffre-text">Chiffre d'affaire 2023</span>
           </div>
           <div className="chiffre-item chiffre-item-right">
             <span className="chiffre-large-number">{experience}</span>
             <span className="chiffre-text">Le nombre moyen d'années d'expérience de nos consultants</span>
           </div>
           <div className="chiffre-item chiffre-item-right">
-            <span className="chiffre-large-number">{consultants}</span>
-            <span className="chiffre-text">Consultants</span>
+            <span className="chiffre-large-number">{consultants} % </span>
+            <span className="chiffre-text">Taux de satisfaction des clients</span>
           </div>
         </div>
       </div>

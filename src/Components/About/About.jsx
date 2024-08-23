@@ -13,27 +13,14 @@ const About = () => {
         <img src={about_img} alt="À propos de nous" className='about-img' />
       </div>
       <div className="about-content">
-        <p>
-          Nous sommes une Société de Services et d’Ingénierie Informatique qui positionne le capital humain au cœur de ses valeurs d’engagement et d’évolution, notre préoccupation essentielle est d’accompagner nos clients dans la conception, la planification et la mise en œuvre opérationnelle de leurs projets pour faciliter la mise en place de leur projet de transformation et d’expérience digitale. Avec une équipe d’experts ayant au moins 10 ans d’expérience, nous pouvons vous garantir les avantages suivants :
-          <ul>
-            <li>Une relation client qui met en valeur le capital humain</li>
-            <li>La maîtrise de la solution à intégrer</li>
-            <li>L’efficacité de travail avec une simplification des processus de gestion</li>
-            <li>Encadrement et formation de vos équipes pour vous mettre en confiance après la transition</li>
-          </ul>
-          Notre force d’engagement et notre expertise nous permettent d’intervenir sur plusieurs phases de projet, notamment :
-          <ul>
-            <b>L’Expertise des projets SAP</b>
-            <li>Phase amont d’un projet (cadrage, maîtrise d’ouvrage, conception de l’architecture du système)</li>
-            <li>Implication sur toutes les phases clés du projet</li>
-            <li>Intervention efficace sur la résolution des points de blocage</li>
-            <li>Adaptation de l’outil aux contraintes métiers</li>
-            <li>La formation standard aux modules SAP et aux différents processus métier</li>
-            <li>Formation ciblée concernant vos processus spécifiques et vos besoins métier</li>
-            <li>L’audit et validation de votre solution SAP par rapport à vos besoins</li>
-          </ul>
-          Nos consultants peuvent intégrer directement vos équipes pour vous assister sur vos différents projets, ou prendre en charge une partie ou la totalité de votre projet.
-        </p>
+      <p>
+          Innovex Consulting est votre partenaire en excellence RH avec SAP. Nous sommes passionnés par l'optimisation des processus RH grâce à la puissance de SAP. Nous sommes une équipe d'experts SAP HR dédiés à aider les entreprises à tirer le meilleur parti de leurs ressources humaines.
+      </p>
+        <ul>
+          <li>💡 <b>Notre mission?</b> Transformer la gestion des ressources humaines en une expérience transparente et efficace pour les entreprises de toutes tailles. Que vous cherchiez à simplifier la gestion de la paie, à améliorer la gestion du personnel, Innovex Consulting est là pour vous guider à chaque étape.</li>
+          <li>🏆 <b>Notre équipe est fière de ses réalisations récentes,</b> notamment la mise en place réussie de projets SAP HR pour des entreprises de renommée internationale. Nous croyons en la puissance de la technologie pour stimuler la croissance et l'excellence opérationnelle.</li>
+          <li>✨ <b>Chez Innovex Consulting, nous offrons une gamme complète de services,</b> de la consultation initiale à la mise en œuvre complète et au soutien continu. Notre objectif est de vous aider à atteindre vos objectifs RH avec succès.</li>
+        </ul>
       </div>
     </div>
   );

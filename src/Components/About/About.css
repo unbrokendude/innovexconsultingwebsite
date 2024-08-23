@@ -17,8 +17,9 @@
   
   .about-img {
     border-radius: 10px;
-    margin: 20px 0; /*Space between image and text */
-    width : 700px
+    margin: 50px 0; /*Space between image and text */
+    width : 1200px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); 
   }
   
   .about-content h3, .about-content h2, .about-content p {
@@ -59,4 +60,14 @@
     font-size: 1.1em; /* Adjust font size as needed */
     color: #333; /* Adjust color as needed */
   }
+
+  .about-content ul {
+    font-size: 1em; /* Adjust font size as needed */
+    color: #666; /* Adjust color as needed */
+    line-height: 1.8; /* Adjust line height as needed */
+    /* max-width: 800px; */
+  }
   
+  .about-content li {
+    margin-top: 20px;
+  }

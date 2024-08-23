@@ -1,0 +1,58 @@
+/* ServiceDetail.css */
+.service-detail {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .service-detail h2 {
+    color: #1b7dbb;
+    font-size: 2.5em; /* Adjust the size as needed */
+    margin-bottom: 20px;
+    margin-top: 120px;
+  }
+  
+  .service-detail p {
+    font-size: 1.2em; /* Adjust the size as needed */
+    color: #333;
+    line-height: 1.6; /* Adjust line height */
+    max-width: 100%; /* Limit the width of the text block */
+    margin: 0 auto; /* Center the text block */
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail .back-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #1b7dbb; /* Blue background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .service-detail .back-link:hover {
+    background-color: #155d8b; /* Darker blue on hover */
+  }
+  
+  .service-detail img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px; /* Rounded corners for images */
+  }
+
+  .service-detail ul{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .service-detail ul li{
+    margin-bottom: 20px;
+  }
+  

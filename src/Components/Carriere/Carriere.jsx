@@ -13,20 +13,12 @@ const Carriere = () => {
     const jobListings = [
         {
             id: 1,
-            title: "Consultant(e) Confirmé(e) SAP SuccessFactors (H/F)",
-            description: "En tant que Consultant(e) SAP SuccessFactors, vous interviendrez sur différents sujets et pouvez justifier des compétences suivantes : Réalisation de livrables liés à la gestion de projet Success...",
-            location: "Région parisienne",
-            category: "CDI",
-            date: new Date('2023-07-16T09:00:00')
+            title: "Stagiaire Consultant(e) SAP HR (H/F)",
+            description: "Nous recrutons un(e) stagiaire, rattaché(e) à l’agence de Rabat qui aura l’opportunité d’intervenir sur des projets d’accompagnement de nos clients sur leur système d’information RH (SIRH)...",
+            location: "Rabat",
+            category: "Stage",
+            date: new Date('2024-08-22T09:00:00')
         },
-        {
-            id: 2,
-            title: "Consultant(e) SAP HR (H/F)",
-            description: "Nous sommes à la recherche de notre prochain(e) consultant(e) SAP HR ayant des compétences sur la paie et la gestion administrative. La connaissance de l’Abap et de la gestion des temps serait...",
-            location: "Région parisienne",
-            category: "CDI",
-            date: new Date('2022-07-16T09:00:00')
-        }
     ];
 
     useEffect(() => {
@@ -64,8 +56,6 @@ const Carriere = () => {
                 <select value={location} onChange={(e) => setLocation(e.target.value)}>
                     <option value="">Lieu</option>
                     <option value="Région parisienne">Région Parisienne</option>
-                    <option value="Lyon">Lyon</option>
-                    <option value="Marseille">Marseille</option>
                     <option value="Rabat">Rabat</option>
                     <option value="Casablanca">Casablanca</option>
                 </select>

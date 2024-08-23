@@ -1,0 +1,119 @@
+.consultant-detail {
+  padding: 20px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.consultant-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adds space between the image and the title */
+  margin-bottom: 40px;
+}
+
+.consultant-detail-image {
+  width: 150px; /* Adjust size as needed */
+  height: 180px; /* Adjust size as needed */
+  border-radius: 10px;
+}
+
+.consultant-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center; /* Center aligns the title content */
+}
+
+.consultant-title h1 {
+  font-size: 24px;
+  color: #2e2960;
+  margin: 0;
+}
+
+.consultant-title h2,
+.consultant-title h3 {
+  font-size: 18px;
+  color: #1b7dbb; /* Changed color to #2e2960 */
+  margin: 0;
+  margin-top: 20px;
+}
+
+.anneeexperience{
+  color: #2e2960;
+}
+
+.projets{
+  color: #2e2960;
+}
+
+.consultant-title .number {
+  color: #2e2960;
+}
+
+.consultant-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Adds space between the contact items */
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between the icon and the text */
+}
+
+.consultant-contact a {
+  color: #1b7dbb;
+  text-decoration: none;
+}
+
+.consultant-contact p {
+  margin: 0;
+  text-align: right;
+}
+
+.consultant-content {
+  text-align: center;
+}
+
+.competences-details {
+  display: flex;
+  justify-content: center; /* Aligns competences and details horizontally */
+  gap: 20px; /* Adds space between competences and details */
+  margin-bottom: 20px;
+}
+
+.competences, .details, .experiences {
+  margin-bottom: 20px;
+}
+
+.competences h2 {
+  font-size: 20px;
+  color: #1b7dbb;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: left; /* Center aligns the h2 within competences */
+}
+
+.competence {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.competence strong {
+  width: 200px; /* Ajustez cette valeur selon la longueur du texte */
+  text-align: left;
+}
+
+.stars {
+  color: #ffcc00;
+  flex-shrink: 0; /* Empêche les étoiles de se rétrécir */
+  text-align: left; /* Aligne les étoiles à gauche */
+  font-size: 20px;
+}
