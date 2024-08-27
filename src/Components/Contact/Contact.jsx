@@ -11,7 +11,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
 
     try {
-      const response = await fetch("http://localhost:3000/contact", { // Update URL to your server endpoint
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/submit-form`, {
         method: "POST",
         body: formData
       });

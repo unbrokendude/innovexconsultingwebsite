@@ -57,7 +57,7 @@ const JobDetails = () => {
         try {
             const formData = new FormData(event.target);
     
-            const response = await fetch('http://localhost:3000/submit-form', {
+            const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/submit-form`, {
                 method: 'POST',
                 body: formData
             });
