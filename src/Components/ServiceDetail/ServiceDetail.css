@@ -9,8 +9,7 @@
   .service-detail h2 {
     color: #1b7dbb;
     font-size: 2.5em; /* Adjust the size as needed */
-    margin-bottom: 20px;
-    margin-top: 120px;
+    margin-bottom: 50px;
   }
   
   .service-detail p {

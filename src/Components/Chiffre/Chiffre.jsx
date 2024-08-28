@@ -1,6 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react';
-import './Chiffre.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import React, { useEffect, useState, useRef } from "react";
+import "./Chiffre.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Box } from "@mui/material";
 
 const Chiffre = () => {
   const [clients, setClients] = useState(0);
@@ -10,15 +11,18 @@ const Chiffre = () => {
   const chiffreRef = useRef(null);
 
   useEffect(() => {
-    let clientsInterval, chiffreAffaireInterval, experienceInterval, consultantsInterval;
+    let clientsInterval,
+      chiffreAffaireInterval,
+      experienceInterval,
+      consultantsInterval;
 
     const startIncrementation = () => {
       clientsInterval = setInterval(() => {
-        setClients(prev => (prev < 4 ? prev + 1 : prev));
+        setClients((prev) => (prev < 4 ? prev + 1 : prev));
       }, 100);
 
       chiffreAffaireInterval = setInterval(() => {
-        setChiffreAffaire(prev => {
+        setChiffreAffaire((prev) => {
           if (prev + 680 < 191040) {
             return prev + 680;
           } else {
@@ -27,15 +31,13 @@ const Chiffre = () => {
           }
         });
       }, 1);
-      
-      
 
       experienceInterval = setInterval(() => {
-        setExperience(prev => (prev < 10 ? prev + 1 : prev));
+        setExperience((prev) => (prev < 10 ? prev + 1 : prev));
       }, 100);
 
       consultantsInterval = setInterval(() => {
-        setConsultants(prev => (prev < 98 ? prev + 1 : prev));
+        setConsultants((prev) => (prev < 98 ? prev + 1 : prev));
       }, 10);
     };
 
@@ -77,28 +79,36 @@ const Chiffre = () => {
         </div>
         <div className="chiffre-other-items">
           <div className="chiffre-item chiffre-item-right">
-            <span className="chiffre-large-number">{chiffreAffaire.toLocaleString()}</span>
+            <span className="chiffre-large-number">
+              {chiffreAffaire.toLocaleString()}
+            </span>
             <span className="chiffre-text">Chiffre d'affaire 2023</span>
           </div>
           <div className="chiffre-item chiffre-item-right">
             <span className="chiffre-large-number">{experience}</span>
-            <span className="chiffre-text">Le nombre moyen d'années d'expérience de nos consultants</span>
+            <span className="chiffre-text">
+              Le nombre moyen d'années d'expérience de nos consultants
+            </span>
           </div>
           <div className="chiffre-item chiffre-item-right">
             <span className="chiffre-large-number">{consultants} % </span>
-            <span className="chiffre-text">Taux de satisfaction des clients</span>
+            <span className="chiffre-text">
+              Taux de satisfaction des clients
+            </span>
           </div>
         </div>
       </div>
-      <div className="chiffre-decorative-circle chiffre-decorative-circle1">
-        <i className="fa-solid fa-magnifying-glass-chart"></i>
-      </div>
-      <div className="chiffre-decorative-circle chiffre-decorative-circle2">
-        <i className="fa-solid fa-euro-sign"></i>
-      </div>
-      <div className="chiffre-decorative-circle chiffre-decorative-circle3">
-        <i className="fa-solid fa-money-bill-trend-up"></i>
-      </div>
+      <Box sx={{ display: { xs: "none", md: "block" } }}>
+        <Box className="chiffre-decorative-circle chiffre-decorative-circle1">
+          <i className="fa-solid fa-magnifying-glass-chart"></i>
+        </Box>
+        <Box className="chiffre-decorative-circle chiffre-decorative-circle2">
+          <i className="fa-solid fa-euro-sign"></i>
+        </Box>
+        <Box className="chiffre-decorative-circle chiffre-decorative-circle3">
+          <i className="fa-solid fa-money-bill-trend-up"></i>
+        </Box>
+      </Box>
     </div>
   );
 };

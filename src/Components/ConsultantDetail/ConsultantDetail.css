@@ -1,7 +1,6 @@
 .consultant-detail {
   padding: 20px;
   text-align: center;
-  margin-top: 120px;
 }
 
 .consultant-header {
@@ -22,7 +21,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
   align-items: center; /* Center aligns the title content */
 }
 

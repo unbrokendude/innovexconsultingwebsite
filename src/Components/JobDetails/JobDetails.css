@@ -1,13 +1,12 @@
 .job-detail {
     width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
     color: #2e2960;
 }
 
 .job-detail h1 {
     margin-bottom: 20px;
-    margin-top: 90px;
+    margin-top: 20px;
     color: #007bff;
 }
 

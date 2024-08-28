@@ -1,9 +1,13 @@
 .job-offers {
     width: 80%;
     margin: 0 auto;
-    margin-top: 150px;
     text-align: center;
     color: #2e2960;
+    margin-top: 50px;
+}
+
+.job-offers h2 {
+    margin-bottom: 16px;
 }
 
 .job-offers i {
