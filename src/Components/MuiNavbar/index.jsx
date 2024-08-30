@@ -206,7 +206,7 @@ function MuiNavbar() {
                 </Button>
               ))}
               <Button
-                onClick={handleCloseNavMenu}
+                onClick={() => navigate("/contact")}
                 sx={{
                   my: 2,
                   color: "white",
