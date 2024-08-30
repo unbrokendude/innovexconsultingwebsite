@@ -35,7 +35,7 @@ const MuiHero = () => {
             Nous sommes passionnés par l'optimisation des processus RH grâce à
             la puissance de SAP. Nous sommes une équipe d'experts SAP HR dédiés
             à aider les entreprises à tirer le meilleur parti de leurs
-            ressources humaines
+            ressources humaines.
           </Typography>
           <div className="btns">
             <Link to="/about" className="btn">
