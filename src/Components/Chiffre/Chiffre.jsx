@@ -18,16 +18,16 @@ const Chiffre = () => {
 
     const startIncrementation = () => {
       clientsInterval = setInterval(() => {
-        setClients((prev) => (prev < 7 ? prev + 1 : prev));
+        setClients((prev) => (prev < 4 ? prev + 1 : prev));
       }, 100);
 
       chiffreAffaireInterval = setInterval(() => {
         setChiffreAffaire((prev) => {
-          if (prev + 1110 < 326610) {
-            return prev + 1110;
+          if (prev + 680 < 191040) {
+            return prev + 680;
           } else {
             clearInterval(chiffreAffaireInterval);
-            return 326610;
+            return 191040;
           }
         });
       }, 1);
@@ -82,7 +82,7 @@ const Chiffre = () => {
             <span className="chiffre-large-number">
               {chiffreAffaire.toLocaleString()}
             </span>
-            <span className="chiffre-text">Chiffre d'affaire 2024</span>
+            <span className="chiffre-text">Chiffre d'affaire 2023</span>
           </div>
           <div className="chiffre-item chiffre-item-right">
             <span className="chiffre-large-number">{experience}</span>

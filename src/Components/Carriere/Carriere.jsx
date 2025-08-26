@@ -19,16 +19,7 @@ const Carriere = () => {
         "Nous recrutons un(e) stagiaire, rattaché(e) à l’agence de Rabat qui aura l’opportunité d’intervenir sur des projets d’accompagnement de nos clients sur leur système d’information RH (SIRH)...",
       location: "Rabat",
       category: "Stage",
-      date: new Date("2024-08-22T12:00:00"),
-    },
-    {
-      id: 2,
-      title: "Stagiaire Développeur(se) Fullstack (H/F)",
-      description:
-        "Nous recrutons un(e) stagiaire Bac+3/Bac+4 en développement fullstack (Spring Boot, React/Next.js) pour 3 mois, rattaché(e) à l’agence de Rabat, afin de contribuer au développement d’un logiciel de paie Maroc (conception, APIs REST, UI Next.js, tests et support aux sprints)...",
-      location: "Rabat",
-      category: "Stage",
-      date: new Date("2025-08-25T12:00:00"),
+      date: new Date("2024-08-22T09:00:00"),
     },
   ];
 
