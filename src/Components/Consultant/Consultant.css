@@ -12,6 +12,7 @@
   .consultants h1 {
     font-size: 32px;
     color: #2e2960;
+    margin-bottom: 25px;
     text-transform: none;
     text-align: center;
   }
@@ -52,7 +53,7 @@
   
   .consultant-image {
     width: 100%;
-    height: auto;
+     height:340px; 
     border-radius: 10px;
   }
   
